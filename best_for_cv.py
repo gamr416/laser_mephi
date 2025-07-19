@@ -117,9 +117,3 @@ if type(ye_g) == np.ndarray:
 
 
 print(funct([(xs_b, ys_b), (xw_b, yw_b), (xs_g, ys_g), (xw_g, yw_g)], [(xs_b, ys_b), (xn_b, yn_b), (xw_b, yw_b), (xe_b, ye_b)], [(xs_g, ys_g), (xn_g, yn_g), (xw_g, yw_g), (xe_g, ye_g)], [xs_g, ys_g, xw_g, yw_g]))
-
-
-cv2.imshow('Result', ans)
-cv2.imshow('img', image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
